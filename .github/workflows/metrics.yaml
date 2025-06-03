@@ -10,7 +10,7 @@ on:
 
 jobs:
   metrics:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
@@ -32,5 +32,5 @@ jobs:
           plugin_topics_mode: icons
           plugin_notable: yes
           plugin_discussions: yes
-          repositories_skipped: dstreetfinance/release
+          repositories_skipped: ""
           
